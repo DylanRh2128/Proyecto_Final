@@ -1,0 +1,71 @@
+@import url(./Sing_In.css);
+@import url(./Sing_Up.css);
+
+:root{
+    --body-font: 'Poppins', sans-serif;
+    --big-font-size: 2.5rem;
+    --normal-font-size: .938rem;
+    --white-color: #FCF8F8;
+    --green-color: #4EDAAB;
+    --red-color: #A92222;
+    --margin: 3rem;
+}
+body{
+    margin: var(--margin); 
+    color: var(--white-color);
+    background-color: var(--red-color);
+
+}
+.navegacion{
+    text-decoration: none;
+    margin: 3rem;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .Titulo_navegacion{
+    color: #ffff;
+    font-size: var(--big-font-size);
+    margin-left: 0%;
+    padding: 0%;
+  }
+  
+  li, .navegacion{
+    font-size: .938rem;
+    font-family: var(--body-font);
+    display: inline-block;
+    color: #ffff;
+    transition: 0.4s;
+    padding: 0px 20px;
+  }
+.Logo_N{
+    position: absolute;
+    margin-left: 15%;
+
+}
+.Texto_Inicio{
+    position: absolute;
+    margin-right: 55%;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+.Logo_I{
+    display: flex;
+    position: relative;
+    margin-left: 65%;
+    margin-top: 5%;
+}
+h3{
+    position: absolute;
+    margin-top: 380px;
+    margin-right: 10%;
+}
