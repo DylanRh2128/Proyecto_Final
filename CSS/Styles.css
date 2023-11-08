@@ -8,13 +8,14 @@
     --white-color: #FCF8F8;
     --green-color: #4EDAAB;
     --red-color: #A92222;
+    --gray-color: #998896;
+    --black-color: #000000;
     --margin: 3rem;
 }
 body{
     margin: var(--margin); 
-    color: var(--white-color);
-    background-color: var(--red-color);
-
+    color: var(--black-color);
+    background-color: var(--gray-color);
 }
 .navegacion{
     text-decoration: none;
@@ -30,10 +31,11 @@ body{
     padding-right: 5%;
     font-weight: bold;
     margin-bottom: 5px;
+    color: var(--white-color);
   }
   
   .Titulo_navegacion{
-    color: #ffff;
+    color: var(--black-color);
     font-size: var(--big-font-size);
     margin-left: 0%;
     padding: 0%;
