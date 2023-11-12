@@ -1,0 +1,16 @@
+.Formulario_up{
+    color: var(--black-color);
+    position: absolute;
+    margin: 0%;
+    margin-left: 60%;
+}
+.Boton{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 170px;
+}
+.imagen_up{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 10%;
+}
