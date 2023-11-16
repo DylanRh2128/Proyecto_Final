@@ -15,8 +15,11 @@
 body{
     margin: var(--margin); 
     color: var(--black-color);
-    background-color: var(--gray-color);
+    background-image: url(../IMG/background_2.jpg);
+    background-repeat: no-repeat;
+    
 }
+
 .navegacion{
     text-decoration: none;
     margin: 3rem;
@@ -80,4 +83,15 @@ h2{
   margin-left: 60%;
   margin-top: 350px;
   justify-content: space-between;
+}
+.Vision{
+  width: 40%;
+  margin-top: 2rem;
+}
+.Mision{
+  width: 50%;
+  margin-top: 100px;
+}
+.Listas_productos{
+  width: 60%;
 }

@@ -9,26 +9,33 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    color: #fff;
-    background: url(../IMG/Background_1.jpg) no-repeat;
+    color: black;
+    
+
+}
+.imagen_background{
+    height: 100%;
+    width: 100%;
+    position: fixed;
 }
 .Sing_In{
     width: 420px;
-    background: purple;
     backdrop-filter: blur(20px);
     color: #fff;
 }
 .Sing_In h1{
     font-size: 36px;
     text-align: center;
+    color: black;
 }
 .Sing_In .User{
     width: 100%;
     height: 50px;
     margin: 30px 0;
     font-size: 16px;
-    color: #fff;
+    color: black;
     padding: 20px 45px 20px 20px ;
+    font-family: var(--body-font);
 }
 .User input{
     width: 100%;
@@ -36,18 +43,22 @@
     background: transparent;
     border: none;
     outline: none;
-    border: 10px solid red;
+    border: 10px solid;
     border-radius: 40px;
-
+    
 }
-.User input::placeholder{
-    color: #fff;
+input{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .Sing_In .remeber{
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
-
+    color: black;
 }
+.Sing_In, p{
+    color: black;
+}
+
 
