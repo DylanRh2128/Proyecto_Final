@@ -1,16 +1,64 @@
+.cuerpo_Up{
+    background-image: url(../IMG/background_4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #F2F2F2;
+}
 .Formulario_up{
-    color: var(--black-color);
-    position: absolute;
     margin: 0%;
-    margin-left: 60%;
+    width: 450px;
+    min-height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    backdrop-filter: blur(50px);
+}
+.Formulario_up h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Formulario_up .Input_user{
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+    font-size: 16px;
+    color: #F2F2F2;
+    padding: 5px 45px 20px 20px ;
+    font-family: var(--body-font);
+}
+.Input_user input{
+    width: 100%;
+    height: 1rem;
+    border: none;
+    outline: none;
+    border: 10px black;
+    border-radius: 40px;
+}
+.sexo{
+    align-items: center;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 22px;
+}
+option{
+    font-size: 15px;
 }
 .Boton{
-    position: absolute;
-    margin-left: 60%;
-    margin-top: 170px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
 }
-.imagen_up{
-    position: relative;
-    margin-top: 15px;
-    margin-left: 10%;
+.Boton button{
+    width: 55px;
+    height: 28px;
+    font-size: 18px;
+}
+.Boton, a{
+    color: #F2F2F2;
+    outline: none;
+}
+.imagen_sing{
+    position: fixed;
+    margin-left: 45rem;
+    margin-top: 10px;
+
 }
