@@ -1,5 +1,6 @@
 @import url(./Sing_In.css);
 @import url(./Sing_Up.css);
+@import url(./Principal.css);
 
 :root{
     --body-font: 'Poppins', sans-serif;
@@ -12,17 +13,31 @@
     --black-color: #000000;
     --margin: 3rem;
 }
+
 body{
     margin: var(--margin); 
     color: var(--black-color);
-    background-image: url(../IMG/background_2.jpg);
+    background-image: url(../IMG/technology-785742_1280.jpg);
     background-repeat: no-repeat;
-    
+    background-attachment: fixed;
+    background-size: cover;
+}
+p{
+  color: #F2F2F2;
+}
+h1{
+  color: #F2F2F2;
+}
+li{
+  color: #fff;
 }
 
 .navegacion{
     text-decoration: none;
     margin: 3rem;
+  }
+  nav ul li{
+    color:#F2F2F2;
   }
   
   nav{
@@ -36,11 +51,11 @@ body{
     margin-bottom: 5px;
     color: var(--white-color);
     border-bottom: 10px;
-    border-color: black;
+    border-color: wheat;
   }
   
   .Titulo_navegacion{
-    color: var(--black-color);
+    color: #F2F2F2;
     font-size: var(--big-font-size);
     margin-left: 0%;
     padding: 0%;
@@ -52,36 +67,43 @@ body{
     display: inline-block;
     transition: 0.4s;
     padding: 0px 20px;
+    color: #F2F2F2;
   }
 .Logo_N{
     position: absolute;
     margin-left: 15%;
-
+}
+.lema{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2F2F2;
+  text-shadow: 2px 2px #6722D8;
+}
+.logo_principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.titulo_inicio{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
 }
 .Texto_Inicio{
-    position: absolute;
-    margin-right: 55%;
-    margin-top: 250px;
-    font-size: var(--body-font);
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    color: var(--white-color);
-}
-.Logo_I{
-    display: flex;
-    margin-left: 34%;
-}
-h2{
   display: flex;
-
-  margin-top: 20px;
-  margin-left: 30%;
-  text-shadow: 2px 2px var(--white-color);
+  justify-content: initial;
+  width: 40%
+}
+.Imagen_inicio{
+  display: flex;
+  justify-content: end;
 }
 .Imagen_3{
-  position: relative;
-  margin-left: 60%;
-  margin-top: 350px;
+  display: flex;
   justify-content: space-between;
 }
 .Vision{
@@ -92,6 +114,33 @@ h2{
   width: 50%;
   margin-top: 100px;
 }
-.Listas_productos{
-  width: 60%;
+.Listas_productos, ul li{
+  color: #F2F2F2;
+  margin-left: 2.5rem;
+  padding-left: 2rem;
+
+}
+.titulo_lista h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  color: #F2F2F2;
+}
+
+.titulo_tfooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  color: #F2F2F2;
+}
+.titulo_tfooter, h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+.imgenes_tfooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

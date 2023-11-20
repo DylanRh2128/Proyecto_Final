@@ -1,0 +1,53 @@
+.body_principal{
+    background-image: url(../IMG/background_5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nombre_principal h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.parrafo_principal p{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    color: #F2F2F2;
+    width: 80%;
+    margin-top: 50px;
+}
+.caja_usuario{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.caja_sesion{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.caja_sesion button{
+    width: 80px;
+    height: 50px;
+}
+.lista_logos{
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 20px;
+    padding-top: 3rem;
+}
+.lista_logos h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}

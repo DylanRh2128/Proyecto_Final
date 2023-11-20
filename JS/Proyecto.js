@@ -1,14 +1,21 @@
 function Register() {
-    const nombre = document.getElementById("Usuario").value;
-    const apellido = document.getElementById("Contraseña").value;
+    const nombre = document.getElementById("nombre").value;
+    const apellido = document.getElementById("apellido").value;
+    const correo = document.getElementById("correo").value;
+    const name_usu = document.getElementById("Usuario").value;
+    const contraseña = document.getElementById("Contraseña").value;
     const sexo = document.getElementById("sexo").value;
 
     const usuario = {
         nombre,
-        sexo,
-        contrasena
+        apellido,
+        correo,
+        name_usu,
+        contraseña,
+        sexo
     };
-    localStorage.setItem(correo, JSON.stringify(usuario));
+
+    localStorage.setItem(name_usu, JSON.stringify(usuario));
 
     alert("Usuario creado correctamente. Por favor, inicie sesión.");
 }
@@ -24,15 +31,16 @@ function Login() {
 
         if (usuario.contraseña === Contraseña_login) {
             document.getElementById("mensajeError").innerText = '';
-
-            location.href="../Principal.html";
-            document.getElementById("nombreUsuario").innerText = usuario.nombre;
-
-            document.getElementById("app").style.display = 'none';
+            document.getElementById("nombre_usuario").initext = usuario;
+            document.getElementById('nombreUsuario').innerText = usuario.nombre;
+            location.href = "Principal.html";
         } else {
             document.getElementById("mensajeError").innerText = "Contraseña incorrecta";
         }
     } else {
         document.getElementById("mensajeError").innerText = "Usuario no registrado";
     }
+}
+function Logo_1(){
+
 }
