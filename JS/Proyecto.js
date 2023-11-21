@@ -29,6 +29,8 @@ function Login() {
 
         if (usuario.contraseña === Contraseña_login) {
             window.location.href = "Principal.html";
+            
+            document.getElementById("nombre_usuario").initext = usuario;
             document.getElementById("nombre_usuario").innerText = usuario.nombre;
 
         } else {
@@ -50,5 +52,4 @@ function Logo_1(){
 }
 
 document.getElementById("mensajeError").innerText = '';
-document.getElementById("nombre_usuario").initext = usuario;
 document.getElementById('nombreUsuario').innerText = usuario.nombre;

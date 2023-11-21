@@ -5,6 +5,12 @@
     background-size: cover;
     color: #F2F2F2;
 }
+ul, p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: italic;
+    text-align: center;
+}
 .nombre_principal h1{
     font-size: 40px;
     display: flex;
@@ -47,42 +53,28 @@
     margin-bottom: 2rem;
 }
 .imagenes_samsung{
-    width: 100%;
-    display: block;
-    align-items: center;
-    justify-content: start;
-    margin-left: 2rem;
-}
-.logos_1{
-    display: flex;
-    justify-content: initial;
-    align-items: center;
-    padding-left: 2rem;
-}
-.logo_2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2rem;
-    margin-top: 4rem;
-}
-.titulo_productos{
-    display: flex;
-    justify-content: initial;
-    align-items: center;
-    padding-left: 2rem;
+    margin-top: 3rem;
 }
 .logo_playstation{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+.imagn
+.imagenes_playstation{
+    margin-top: 5rem;
+    padding-top: 2rem;
 }
 .logo_iphone{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}
+.imagenes_iphone{
+ margin-top: 5rem;  
+ padding-top: 5rem; 
 }
