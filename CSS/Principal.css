@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    color: #F2F2F2;
 }
 .nombre_principal h1{
     font-size: 40px;
@@ -12,11 +13,12 @@
     margin-bottom: 20px;
 }
 .parrafo_principal p{
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     color: #F2F2F2;
     width: 80%;
+    margin-left: 6rem;
     margin-top: 50px;
 }
 .caja_usuario{
@@ -37,17 +39,50 @@
     width: 80px;
     height: 50px;
 }
-.lista_logos{
+.logo_samsung{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.imagenes_samsung{
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: start;
+    margin-left: 2rem;
+}
+.logos_1{
     display: flex;
     justify-content: initial;
     align-items: center;
-    margin-top: 4rem;
-    margin-left: 20px;
-    padding-top: 3rem;
+    padding-left: 2rem;
 }
-.lista_logos h3{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-
+.logo_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+.titulo_productos{
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    padding-left: 2rem;
+}
+.logo_playstation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.logo_iphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }

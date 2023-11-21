@@ -29,8 +29,8 @@ function Login() {
 
         if (usuario.contraseña === Contraseña_login) {
             window.location.href = "Principal.html";
-            document.getElementById('usuarioLogueado').style.display = 'block';
             document.getElementById("nombre_usuario").innerText = usuario.nombre;
+
         } else {
             document.getElementById("mensajeError").innerText = "Contraseña incorrecta";
         }

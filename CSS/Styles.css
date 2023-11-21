@@ -13,7 +13,13 @@
     --black-color: #000000;
     --margin: 3rem;
 }
-
+@media screen and (max-width:480px){
+ :root{
+  width: 100%;
+  justify-content: center;
+  display: block;
+ }
+}
 body{
     margin: var(--margin); 
     color: var(--black-color);
@@ -85,34 +91,70 @@ li{
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 8rem;
 }
 .titulo_inicio{
   width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3rem;
-}
-.Texto_Inicio{
-  display: flex;
-  justify-content: initial;
-  width: 40%
-}
-.Imagen_inicio{
-  display: flex;
-  justify-content: end;
-}
-.Imagen_3{
-  display: flex;
-  justify-content: space-between;
-}
-.Vision{
-  width: 40%;
   margin-top: 2rem;
 }
+
+.Texto_Inicio{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+}
+.Texto_Inicio .parrafo_inicio{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 3rem;
+  margin-right: 12rem;
+}
+.Vision{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+}
+.Vision, .parrafo_vision{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 80%;
+  margin-left: 7rem;
+}
+.titulo_vision{
+  display: flex;
+  justify-content: end;
+  margin-top: 7rem;
+  margin-right: 30%;
+  margin-bottom: 2rem;
+}
+.titulo_mision{
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  margin-left: 15rem;
+}
 .Mision{
-  width: 50%;
-  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+}
+.Mision .parrafo_mision{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 2rem;
+  margin-right: 12rem;
 }
 .Listas_productos, ul li{
   color: #F2F2F2;
